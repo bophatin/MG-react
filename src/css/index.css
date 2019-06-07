@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Stanley-Poster";
-  src: url("types/Stanley-Poster.woff") format("woff");
+  src: url("../types/Stanley-Poster.woff") format("woff");
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
