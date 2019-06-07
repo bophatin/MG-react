@@ -1,0 +1,59 @@
+header {
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+.Logo {
+    font-family: "Stanley-Poster";
+    padding-top:30px;
+    padding-left:30px;
+    cursor: pointer;
+    font-weight: normal;
+    color: #FFC696;
+}
+  
+.Logo:hover {
+    color: #E3A895;
+    transition-duration: 0.4s;
+}
+  
+.Main-menu {
+    font-family: "Stanley-Poster";
+    font-size: 200px;
+    font-weight: normal;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: blue;
+    color:rgba(255, 255, 255, 0);
+    text-align: center;
+}
+  
+.Main-menu ul {
+    list-style-type:none;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
+}
+
+.Link_logo {
+    text-decoration: inherit;
+    color: inherit;
+}
+  
+.Link_nav {
+    text-decoration: inherit;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: blue;
+    color:rgba(255, 255, 255, 0);
+}  
+  
+.Link_nav:hover {
+    -webkit-text-stroke: 1.3px;
+    -webkit-text-stroke-color: blue;
+    color:rgba(255, 255, 255, 0);
+}
