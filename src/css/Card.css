@@ -1,0 +1,33 @@
+.Card {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: calc(10px + 2vmin);
+    background-color: bisque;
+    position: relative;
+  }
+  
+  img {
+      position: absolute;
+      max-width: 400px;
+      max-height: 450px;
+      pointer-events: none;
+  }
+    
+  h1 {
+      position: absolute;
+      text-align: center;
+      font-family: Stanley-Poster;
+      text-transform: uppercase;
+      font-size: 100px;
+      font-weight: normal;
+      cursor: pointer;
+      -webkit-text-stroke: 1px;
+      -webkit-text-stroke-color: blue;
+      color:rgba(255, 255, 255, 0);
+      margin:0;
+      padding: 0;
+  }
